@@ -31,15 +31,11 @@ const About = () => {
               to reality
             </h2>
             <p className="md:text-body-lg text-body-md font-light text-neutral-700">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus
-              fringilla dui amet faucibus nam. Erat id laoreet posuere etiam
-              morbi.
-            </p>
-            <p className="md:text-body-lg text-body-md font-light text-neutral-700">
-              Tempor dolor elementum tellus non ipsum faucibus. Justo, magna
-              mauris posuere auctor justo. Habitant proin aliquet volutpat leo
-              ultricies. Dui blandit eget vitae turpis ultrices aliquet nunc.
-              Faucibus sit odio bibendum lobortis diam.
+              Senior Structural Engineer with 10 years of design experience in
+              medium sized design consultancies. Varied experience working as
+              Principal Structural Engineer on many high-end residential and
+              commercial developments with experience designing all traditional
+              materials.
             </p>
           </div>
           <div className="lg:col-span-6 flex flex-col gap-8 relative">
