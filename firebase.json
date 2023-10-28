@@ -1,0 +1,7 @@
+{
+  "hosting": {
+    "site": "frensham-consulting-limited",
+    "public": "public",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+  }
+}
