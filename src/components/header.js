@@ -6,9 +6,9 @@ import Button from "./button";
 
 const Header = () => {
   const navigation = [
-    { name: "About", href: "#" },
-    { name: "Services", href: "#" },
-    { name: "Our Work", href: "#" },
+    { name: "About", href: "/about" },
+    { name: "Services", href: "/services" },
+    { name: "Projects", href: "/projects" },
   ];
   return (
     <header>
@@ -25,7 +25,8 @@ const Header = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-body-sm font-medium text-neutral-700 hover:text-primary-600 px-4">
+                  className="text-body-sm font-medium text-neutral-700 hover:text-primary-600 px-4"
+                >
                   {item.name}
                 </a>
               ))}

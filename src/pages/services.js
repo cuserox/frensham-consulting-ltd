@@ -1,14 +1,15 @@
 import React from "react";
 
+import Layout from "../components/layout";
 import ArchitectureIcon from "../images/service-icons/interior-design.svg";
 import RenovationIcon from "../images/service-icons/building-renovation.svg";
 import ConstructionIcon from "../images/service-icons/construction.svg";
-import Eyebrow from "./eyebrow";
-import ServiceItem from "./serviceItem";
+import Eyebrow from "../components/eyebrow";
+import ServiceItem from "../components/serviceItem";
 
 const Services = () => {
   return (
-    <div>
+    <Layout>
       <div className="container mx-auto">
         <div className="flex flex-col md:gap-20 gap-10 lg:py-28 md:py-20 py-12">
           <div className="grid lg:grid-cols-12 grid-cols-1 gap-8">
@@ -42,7 +43,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-    </div>
+    </Layout>
   );
 };
 export default Services;

@@ -2,7 +2,8 @@ import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
-import Eyebrow from "./eyebrow";
+import Layout from "../components/layout";
+import Eyebrow from "../components/eyebrow";
 import AwardBadge from "../images/award-badge.svg";
 
 const About = () => {
@@ -20,7 +21,7 @@ const About = () => {
     }
   `);
   return (
-    <div>
+    <Layout>
       <div className="container mx-auto">
         <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-8 gap-20 lg:py-32 py-12 items-center">
           <div className="lg:col-span-6 flex flex-col gap-6">
@@ -54,7 +55,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </Layout>
   );
 };
 export default About;

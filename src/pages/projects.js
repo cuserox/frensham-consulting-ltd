@@ -2,9 +2,10 @@ import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import { getImage } from "gatsby-plugin-image";
 
-import WorkItem from "./workItem";
-import Eyebrow from "./eyebrow";
-import Button from "./button";
+import Layout from "../components/layout";
+import WorkItem from "../components/workItem";
+import Eyebrow from "../components/eyebrow";
+import Button from "../components/button";
 
 const Works = () => {
   const data = useStaticQuery(graphql`
@@ -28,7 +29,7 @@ const Works = () => {
     }
   `);
   return (
-    <div>
+    <Layout>
       <div className="container mx-auto">
         <div className="flex flex-col gap-12 lg:py-28 md:py-24 py-12">
           <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-8 gap-10 items-center">
@@ -68,7 +69,7 @@ const Works = () => {
           </div>
         </div>
       </div>
-    </div>
+    </Layout>
   );
 };
 
