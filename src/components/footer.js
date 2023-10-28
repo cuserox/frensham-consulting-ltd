@@ -29,7 +29,8 @@ const Footer = () => {
             </h3>
             <a
               href="/"
-              className="font-display md:text-display-lg text-display-sm italic text-primary-600 underline">
+              className="font-display md:text-display-lg text-display-sm italic text-primary-600 underline"
+            >
               Send us a hi
             </a>
           </div>
@@ -49,17 +50,19 @@ const Footer = () => {
               </p>
               <a
                 className="text-display-xs font-display font-normal text-primary-600"
-                href="mailto:hello@landify.design">
+                href="mailto:hello@landify.design"
+              >
                 hello@landify.design
               </a>
             </div>
             <div className="flex flex-col gap-2">
               <p className="text-body-sm font-light text-neutral-900">
-                If you're hurry, quick call for us
+                If you're in a hurry, call us
               </p>
               <a
                 className="text-display-xs font-display font-normal text-primary-600"
-                href="/">
+                href="/"
+              >
                 +8(663)125-08-59
               </a>
             </div>
@@ -74,7 +77,8 @@ const Footer = () => {
             love by{" "}
             <a
               href="https://landify.design/?ref=inteo"
-              className="text-primary-600">
+              className="text-primary-600"
+            >
               Landify
             </a>
           </div>
@@ -91,7 +95,8 @@ const Footer = () => {
                   href={node.href}
                   key={node.name}
                   target="_blank"
-                  rel="noreferrer">
+                  rel="noreferrer"
+                >
                   <img
                     className="h-10 w-10"
                     src={node.icon.publicURL}
