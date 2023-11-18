@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Inteo`,
-    description: `Award winning architecture and interior design studio template. Made by Landify.`,
-    siteUrl: `https://landify.design`, // Replace with your domain name
-    author: `@landifydesign`, // Replace with your twitter handle
+    title: `Frensham Consulting Limited`,
+    description: `Chartered and qualified structural engineers in Hertfordshire`,
+    siteUrl: `https://frensham-consulting-limited.web.app/`,
+    author: `Frensham Consulting`,
   },
   plugins: [
     `gatsby-plugin-postcss`,
@@ -29,11 +29,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Landify UI`,
-        short_name: `Landify UI`,
+        name: `Frensham Consulting`,
+        short_name: `Frensham`,
         start_url: `/`,
-        background_color: `#7C3AED`,
-        theme_color: `#7C3AED`,
+        background_color: `#FFFFFF`,
+        theme_color: `#785124`,
         display: `minimal-ui`,
         icon: `src/images/favicon.png`, // Replace with your favicon (This path is relative to the root of the site)
       },

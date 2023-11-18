@@ -2,15 +2,13 @@
   "name": "frensham-consulting-ltd",
   "version": "0.1.0",
   "private": true,
-  "description": "frensham Consulting Limited",
+  "description": "Frensham Consulting Limited",
   "keywords": [
-    "landify",
-    "gatsby",
-    "tailwind css",
-    "landify template",
-    "landing page template",
-    "intertior design studio",
-    "architecture website"
+    "structural engineering",
+    "structural engineer",
+    "chartered structural engineer",
+    "qualified structural engineer",
+    "consulting engineer"
   ],
   "scripts": {
     "develop": "gatsby develop",
