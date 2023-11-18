@@ -11,7 +11,7 @@ const IndexPage = () => (
     <Seo />
     <Hero />
     <Awards />
-    <Metrics />
+    {/* <Metrics /> */}
   </Layout>
 );
 
