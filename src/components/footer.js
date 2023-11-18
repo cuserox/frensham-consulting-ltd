@@ -37,11 +37,10 @@ const Footer = () => {
           <div className="lg:col-span-6 flex flex-col gap-8 xl:pl-80 lg:pl-48">
             <div className="flex flex-col gap-2">
               <p className="text-display-xs font-display font-normal">
-                Brooklyn, New York
+                Hitchin
               </p>
               <p className="text-body-sm font-light text-neutral-900">
-                962 Fifth Avenue Str, 3rd Floor-Trump Building NY 10006, United
-                State.
+                Hertfordshire, United Kingdom
               </p>
             </div>
             <div className="flex flex-col gap-2">
@@ -50,9 +49,9 @@ const Footer = () => {
               </p>
               <a
                 className="text-display-xs font-display font-normal text-primary-600"
-                href="mailto:hello@landify.design"
+                // href="mailto:test@email.com"
               >
-                hello@landify.design
+                test@email.com
               </a>
             </div>
             <div className="flex flex-col gap-2">
@@ -63,7 +62,7 @@ const Footer = () => {
                 className="text-display-xs font-display font-normal text-primary-600"
                 href="/"
               >
-                +8(663)125-08-59
+                (+44)123-45-66-7890
               </a>
             </div>
           </div>
@@ -73,16 +72,9 @@ const Footer = () => {
         </div>
         <div className="flex lg:flex-row flex-col gap-8 lg:items-center justify-between md:mb-20 mb-10">
           <div className="text-body-md font-light">
-            © {new Date().getFullYear()} Inteo - Award winning studio. Made with
-            love by{" "}
-            <a
-              href="https://landify.design/?ref=inteo"
-              className="text-primary-600"
-            >
-              Landify
-            </a>
+            © {new Date().getFullYear()} Frensham Consulting Limited
           </div>
-          <div className="flex lg:flex-row flex-col lg:items-center md:gap-6 gap-4">
+          {/* <div className="flex lg:flex-row flex-col lg:items-center md:gap-6 gap-4">
             <div className="flex flex-row items-center opacity-70">
               <p className="text-body-sm font-semibold tracking-widest text-neutral-700 pr-4">
                 CONNECT
@@ -105,7 +97,7 @@ const Footer = () => {
                 </a>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

@@ -40,7 +40,7 @@ function Seo({ lang, meta, title, description, image, url }) {
         },
         {
           name: `keywords`,
-          content: `landing page, uikit, open source ui kit, landify ui kit, free uikit, figma uikit, aravinddesign, free website ui kit, free figma website ui kit, free landing page ui kit, landing page ui kit for figma, website ui kit for figma`,
+          content: `structural engineering, structural engineer, chartered structural engineer, qualified structural engineer, consulting engineer`,
         },
         {
           property: `og:image`,
@@ -61,26 +61,6 @@ function Seo({ lang, meta, title, description, image, url }) {
         {
           property: `og:url`,
           content: `${siteUrl}${ogUrl}`,
-        },
-        {
-          name: `twitter:card`,
-          content: `summary_large_image`,
-        },
-        {
-          name: `twitter:creator`,
-          content: site.siteMetadata?.author || ``,
-        },
-        {
-          name: `twitter:image`,
-          content: `${siteUrl}${ogImage}`,
-        },
-        {
-          name: `twitter:title`,
-          content: title,
-        },
-        {
-          name: `twitter:description`,
-          content: metaDescription,
         },
       ].concat(meta)}
     />

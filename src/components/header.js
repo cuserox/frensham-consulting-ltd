@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 
-import Logo from "../images/logos/logo-dark.svg";
+import Logo from "../images/logos/logo-f.png";
 import Button from "./button";
 
 const Header = () => {
