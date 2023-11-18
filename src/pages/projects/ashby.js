@@ -37,7 +37,7 @@ const Works = () => {
               <div className="flex flex-col gap-6">
                 <Eyebrow label="RECENT WORKS" />
                 <h3 className="font-display md:text-display-xl text-display-md font-normal pb-4">
-                  Info about project x
+                  Info about Ashby Mews
                 </h3>
               </div>
               {/* {data.allWorksJson.nodes.slice(0, 1).map((node) => (

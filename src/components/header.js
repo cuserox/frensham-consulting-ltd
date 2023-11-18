@@ -20,18 +20,18 @@ const Header = () => {
             </Link>
           </div>
           <div className="flex flex-row gap-6">
-            <div className="md:flex hidden flex-row gap-4 items-center">
+            <div className="flex flex-row md:gap-4 gap-1 items-center">
               {navigation.map((item) => (
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-body-sm font-medium text-neutral-700 hover:text-primary-600 px-4"
+                  className="text-body-sm font-medium text-neutral-700 hover:text-primary-600 md:px-4 px-1"
                 >
                   {item.name}
                 </a>
               ))}
             </div>
-            <Button label="CONTACT US" link="#" />
+            <Button className={"py-1"} label="CONTACT" link="#" />
           </div>
         </div>
       </div>

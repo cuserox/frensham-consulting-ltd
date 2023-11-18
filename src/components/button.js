@@ -4,9 +4,10 @@ import PropTypes from "prop-types";
 const Button = ({ label, link, size, icon }) => (
   <a
     className={`button flex gap-1 items-center justify-center bg-primary-600 text-white font-semibold  ${
-      size === "lg" ? "px-6 py-4 text-body-sm" : "px-5 py-3 text-body-xs"
+      size === "lg" ? "px-6 py-4 text-body-sm" : "px-4 py-2 text-body-xs"
     }`}
-    href={link}>
+    href={link}
+  >
     {label}
     {icon === true ? (
       <svg
@@ -14,7 +15,8 @@ const Button = ({ label, link, size, icon }) => (
         height="20"
         viewBox="0 0 20 20"
         fill="none"
-        xmlns="http://www.w3.org/2000/svg">
+        xmlns="http://www.w3.org/2000/svg"
+      >
         <path
           d="M14.1668 5.83301L5.8335 14.1663"
           stroke="white"

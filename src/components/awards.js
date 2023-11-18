@@ -23,7 +23,7 @@ const Awards = () => {
   return (
     <div className="container mx-auto">
       <div className="flex flex-row md:items-center items-start self-auto gap-5 py-6">
-        <div className="flex flex-row items-center self-auto md:gap-5 gap-2">
+        <div className="flex flex-row items-center self-center md:gap-5 gap-2">
           <p className="font-display text-display-xs opacity-50 vertical-rl -rotate-180">
             Certifications
           </p>
