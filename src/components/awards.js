@@ -29,8 +29,8 @@ const Awards = () => {
           </p>
           <hr className="md:w-16 w-6 text-white opacity-50"></hr>
         </div>
-        <div className="lg:flex lg:flex-row grid md:grid-cols-2 grid-cols-1 grow gap-40">
-          <div className="flex flex-col items-center justify-center">
+        <div className="lg:flex lg:flex-row grid md:grid-cols-2 grid-cols-1 grow">
+          <div className="flex flex-col items-center justify-center grow">
             <img
               src={Chartered}
               width={360}
@@ -41,11 +41,11 @@ const Awards = () => {
               {"Chartered member of The Institution of Civil Engineers"}
             </p>
           </div>
-          <div className="flex flex-col items-center justify-center">
+          <div className="flex flex-col items-center justify-center grow">
             <img
               src={ICE}
-              width={250}
-              height={140}
+              width={360}
+              height={200}
               alt={"institution of civil engineers"}
             />
             <p className="text-body-sm font-normal tracking-wider pt-2">

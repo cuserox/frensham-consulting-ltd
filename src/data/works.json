@@ -1,17 +1,17 @@
 [
   {
-    "image": "../images/works/bfi-1-thumb.jpg",
-    "title": "BFI Southbank: 2 Storey Extension and Refurbishment",
-    "link": "/projects/bfi"
+    "image": "../images/works/ashby-mews.jpeg",
+    "title": "Ashby Mews",
+    "link": "/projects/ashby"
   },
   {
-    "image": "../images/works/bowery-st-1-thumb.jpg",
-    "title": "CitizenM Hotel Bowery, New York: new 20 Storey Modular Hotel",
-    "link": "/projects/bowery"
+    "image": "../images/works/work-2.png",
+    "title": "Tudeley House",
+    "link": "/projects/tudeley"
   },
   {
-    "image": "../images/works/crown-st-1-thumb.jpg",
-    "title": "Crown St, London: new 4 storey Mixed-Use Residential and Retail Building",
-    "link": "/projects/crown"
+    "image": "../images/works/work-3.png",
+    "title": "Leybourne Road",
+    "link": "/projects/leybourne"
   }
 ]
